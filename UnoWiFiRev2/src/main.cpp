@@ -44,10 +44,10 @@ void setup()
     WiFiDrv::pinMode(25, OUTPUT); //define green pin
     WiFiDrv::pinMode(26, OUTPUT); //define red pin
     WiFiDrv::pinMode(27, OUTPUT); //define blue pin
-    while (!Serial) 
-    {
-        ; // wait for serial port to connect. Needed for native USB port only
-    }
+    // while (!Serial) 
+    // {
+    //     ; // wait for serial port to connect. Needed for native USB port only
+    // }
     WiFiDrv::analogWrite(redPin, 20);
     delay(1000);
     // check for the WiFi module:

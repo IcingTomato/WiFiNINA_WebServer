@@ -44,10 +44,10 @@ void setup()
     digitalWrite(LEDR, LOW);
     digitalWrite(LEDG, LOW);
     digitalWrite(LEDB, LOW);
-    while (!Serial) 
-    {
-        ; // wait for serial port to connect. Needed for native USB port only
-    }
+    // while (!Serial) 
+    // {
+    //     ; // wait for serial port to connect. Needed for native USB port only
+    // }
     digitalWrite(LEDR, HIGH);
     delay(1000);
     // check for the WiFi module:
